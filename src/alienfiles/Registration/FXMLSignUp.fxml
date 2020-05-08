@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXRadioButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="550.0" stylesheets="@SignInCSS.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="474.0" layoutX="20.0" layoutY="16.0" stroke="#00ff4d" strokeType="INSIDE" width="510.0" />
+      <JFXTextField layoutX="170.0" layoutY="160.0" prefHeight="27.0" prefWidth="211.0" promptText="First Name" />
+      <JFXTextField layoutX="170.0" layoutY="200.0" prefHeight="27.0" prefWidth="211.0" promptText="Last Name" />
+      <JFXTextField layoutX="170.0" layoutY="240.0" prefHeight="27.0" prefWidth="211.0" promptText="Login" />
+      <JFXPasswordField layoutX="170.0" layoutY="280.0" prefHeight="27.0" prefWidth="211.0" promptText="Password" />
+      <JFXPasswordField layoutX="170.0" layoutY="320.0" prefHeight="27.0" prefWidth="211.0" promptText="Enter your password again" />
+      <JFXRadioButton layoutX="170.0" layoutY="366.0" text="Female" />
+      <JFXRadioButton layoutX="247.0" layoutY="366.0" text="Male" />
+      <JFXRadioButton layoutX="325.0" layoutY="366.0" text="Alien" />
+      <JFXButton layoutX="225.0" layoutY="404.0" prefHeight="36.0" prefWidth="101.0" styleClass="login-button" text="Sign Up" />
+      <FontAwesomeIconView glyphName="FONT" layoutX="142.0" layoutY="182.0" size="25" />
+      <FontAwesomeIconView glyphName="BOLD" layoutX="142.0" layoutY="222.0" size="25" />
+      <FontAwesomeIconView glyphName="USER" layoutX="142.0" layoutY="262.0" size="25" />
+      <FontAwesomeIconView glyphName="KEY" layoutX="142.0" layoutY="302.0" size="25" />
+      <ImageView fitHeight="125.0" fitWidth="128.0" layoutX="217.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true" rotate="11.3">
+         <image>
+            <Image url="@../forIcons/contactSignIn.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

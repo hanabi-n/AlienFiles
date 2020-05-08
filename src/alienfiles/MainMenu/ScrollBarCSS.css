@@ -1,0 +1,52 @@
+
+/* 
+    Created on : 13.04.2020, 0:20:59
+    Author     : Hanabi
+*/
+
+* {
+  -fx-primary: #1A1A1B;
+  -fx-secondary: #00FF4D;
+  -fx-primarytext: #B2B2B2;
+  -fx-third: #FFDE16;
+}
+.mylistview{
+    -fx-border-color: -fx-primary;
+}
+.mylistview.scroll-bar:vertical{
+    -fx-background-color:transparent;
+}
+.mylistview .increment-button ,.mylistview .decrement-button {
+    -fx-background-color:transparent;
+	-fx-border-color: -fx-secondary;
+}
+.mylistview .scroll-bar:vertical .track{
+     -fx-background-color: transparent;
+	 -fx-border-color: -fx-primary;
+	 -fx-background-radius: 0em;
+}
+
+.mylistview .scroll-bar:vertical .thumb {
+    -fx-background-color: -fx-secondary;
+	-fx-background-insets: 2, 0, 0;
+	-fx-background-radius: 2em;
+ 
+}
+/* The main scrollbar **track** CSS class on event of "hover" and "pressed" */
+.mylistview .scroll-bar:vertical:pressed .track{
+     -fx-background-color: -fx-primary;
+
+	 -fx-opacity: 0.2;
+	 -fx-background-radius: 0em;
+
+}
+
+.mylistview .scroll-bar .thumb:pressed{
+    -fx-background-color: derive(black,50%);
+}
+
+.mylistview .increment-button:hover ,.mylistview .decrement-button:hover {
+    -fx-background-color: -fx-primary;
+	-fx-border-color: -fx-secondary;	
+	-fx-padding:7px;
+}

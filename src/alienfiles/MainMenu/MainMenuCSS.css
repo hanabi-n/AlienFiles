@@ -1,0 +1,39 @@
+
+/* 
+    Created on : 12.04.2020, 23:04:28
+    Author     : Hanabi
+*/
+
+* {
+  -fx-primary: #1A1A1B;
+  -fx-secondary: #00FF4D;
+  -fx-primarytext: #B2B2B2;
+  -fx-redwrong: #FF0000
+}
+.root{
+    -fx-background-color: -fx-primary;
+}
+.glyph-icon{
+    -fx-fill: -fx-primarytext;  
+}
+.button{
+    -fx-text-fill: -fx-primarytext;
+    -fx-background-color: -fx-primary;
+}
+//login
+.button{
+    -fx-border-color: -fx-secondary;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+}
+.button:hover{
+    -fx-border-color: -fx-secondary;
+    -fx-background-color: -fx-secondary;
+    -fx-text-fill: -fx-primary;
+}
+
+.text-field{
+    -fx-text-fill: -fx-primarytext;
+    -fx-font-text: 13pt;
+    -jfx-focus-color: -fx-secondary;
+}
